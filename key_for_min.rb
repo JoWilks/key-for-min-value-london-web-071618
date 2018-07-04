@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       ref_value = value
     end
   }
-  temp.to_a.last
+  temp.to_a.last[key]
+  
 end
 
