@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  ref_value = 1000000 #name_hash.values[0]
+  ref_value = 1000000
   temp = {}
   if name_hash != {}
    name_hash.collect { |key, value| 
